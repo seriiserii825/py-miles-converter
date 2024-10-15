@@ -1,18 +1,18 @@
-import tkinter
 
-# window = tkinter.Tk()
-# window.title("My First GUI Program")
-# window.minsize(width=500, height=300)
-#
-# # Label
-# my_label = tkinter.Label(text="I am a Label", font=("Arial", 24, "bold"))
-# my_label.pack()
-#
-# window.mainloop()
+# ---------------------------- CONSTANTS ------------------------------- #
+PINK = "#e2979c"
+RED = "#e7305b"
+GREEN = "#9bdeac"
+YELLOW = "#f7f5dd"
+FONT_NAME = "Courier"
+WORK_MIN = 25
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
 
-def add(*args):
-    print(f'args: {args}')
-    arg_sum = sum(args)
-    print(f"arg_sum: {arg_sum}")
+# ---------------------------- TIMER RESET ------------------------------- # 
 
-add(1,3,4, 9, 10, 12)
+# ---------------------------- TIMER MECHANISM ------------------------------- # 
+
+# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+
+# ---------------------------- UI SETUP ------------------------------- #
